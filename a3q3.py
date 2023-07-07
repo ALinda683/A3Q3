@@ -32,7 +32,17 @@ def sumnc(node_chain):
             :return: the sum of the data values in the node chain
     """
 
-    return None
+    if node_chain is None:
+        return 0
+
+    current = node_chain
+    total_sum = 0
+
+    while current is not None:
+        total_sum += current.get_data()
+        current = current.get_next()
+
+    return total_sum
 
 
 def count_in(node_chain, value):
