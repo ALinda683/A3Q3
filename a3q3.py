@@ -1,3 +1,7 @@
+# Name: ALinda Kumar Mazumder
+# NSID: ugj683
+# Student no: 11342454
+# CMPT-145
 # CMPT 145 Course material
 # Copyright (c) 2017-2023 Michael C Horsch
 # All rights reserved.
