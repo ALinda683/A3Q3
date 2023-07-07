@@ -44,6 +44,11 @@ def sumnc(node_chain):
 
     return total_sum
 
+empty_chain = None
+chain = n.Node(1, n.Node(2, n.Node(3)))
+print('empty chain has the sum', sumnc(empty_chain))
+print('chain has the sum', sumnc(chain))
+
 
 def count_in(node_chain, value):
     """
